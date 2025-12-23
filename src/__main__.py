@@ -1,5 +1,4 @@
-from panama.src.session import entry
-
+import session
 import sys
 
 
@@ -11,8 +10,8 @@ def main() -> int:
     :rtype: int
     """
 
-    
-    entry.run()
+
+    session.run()
     return 0
     
 
